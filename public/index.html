@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th class="x">Action</th>
+            <th class="x">Notes</th>
+            <th class="x">Request type</th>
+            <th class="x">url</th>
+        </tr>
+        <tr>
+            <td class="x">customer register</td>
+            <td class="x"></td>
+            <td class="x">post</td>
+            <td class="x">http://localhost:1200/api/v1/customers/register</td>
+        </tr>
+        <tr>
+            <td class="x">customer login</td>
+            <td class="x"></td>
+            <td class="x">post</td>
+            <td class="x">http://localhost:1200/api/v1/customers/login</td>
+        </tr>
+        <tr>
+            <td class="x">edit customer by id</td>
+            <td class="x"></td>
+            <td class="x">patch</td>
+            <td class="x">http://localhost:1200/api/v1/customers/editCustomer/{id}</td>
+        </tr>
+        <tr>
+            <td class="x">delete customer by id</td>
+            <td class="x"></td>
+            <td class="x">delete</td>
+            <td class="x">http://localhost:1200/api/v1/customers/deleteCustomer/{id}</td>
+        </tr>
+        <tr>
+            <td class="x">get a page of toys</td>
+            <td class="x"></td>
+            <td class="x">get</td>
+            <td class="x">http://localhost:1200/api/v1/toys?page={page}</td>
+        </tr>
+        <tr>
+            <td class="x">get a page of toys by name or info</td>
+            <td class="x"></td>
+            <td class="x">get</td>
+            <td class="x">http://localhost:1200/api/v1/toys/search?page={page}&s={name/info}</td>
+        </tr>
+        <tr>
+            <td class="x">get toys by category</td>
+            <td class="x"></td>
+            <td class="x">get</td>
+            <td class="x">http://localhost:1200/api/v1/toys/category/{category}</td>
+        </tr>
+        <tr>
+            <td class="x">add toy</td>
+            <td class="x">have to be logged in</td>
+            <td class="x">post</td>
+            <td class="x">http://localhost:1200/api/v1/toys</td>
+        </tr>
+        <tr>
+            <td class="x">edit toy by id</td>
+            <td class="x">have to be logged in</td>
+            <td class="x">patch</td>
+            <td class="x">http://localhost:1200/api/v1/toys/{id}</td>
+        </tr>
+        <tr>
+            <td class="x">delete toy by id</td>
+            <td class="x">have to be logged in</td>
+            <td class="x">delete</td>
+            <td class="x">http://localhost:1200/api/v1/toys/{id}</td>
+        </tr>
+        <tr>
+            <td class="x">get single toy by id</td>
+            <td class="x"></td>
+            <td class="x">get</td>
+            <td class="x">http://localhost:1200/api/v1/toys/single/{id}}</td>
+        </tr>
+    </table>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+
+</html>

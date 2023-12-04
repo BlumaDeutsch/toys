@@ -1,0 +1,26 @@
+* {
+    /* דואג שפדינג ובורד יתרחבו כלפי פנים */
+    box-sizing: border-box;
+}
+
+table {
+    width: 90%;
+    text-align: left;
+    border: 1px solid black;
+    margin: 50px;
+}
+tr{
+    border: 1px solid black;
+
+}
+.x{
+    border: 1px solid black;
+
+}
+td,
+th {
+    background: rgb(212, 255, 251);
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
